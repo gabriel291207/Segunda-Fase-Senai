@@ -2,7 +2,6 @@ import { useState } from "react";
 import Principal from "../../componentes/Principal/Principal";
 import CampoCustomizado from "../../componentes/CampoCustomizado/CampoCustomizado";
 import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizado"
-import Principal from "../../componentes/Principal/Principal";
 
 function ListaTarefas({}) {
   const [novaTarefa, setNovaTarefa] = useState("");
